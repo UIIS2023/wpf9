@@ -1,0 +1,16 @@
+﻿<Window x:Class="Aerodrom.Forme.FrmRezervacijaLeta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aerodrom.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/Izmeni rezervaciju" Height="350" Width="300">
+    <Grid>
+        <Label Content="Broj rezervacije:" HorizontalAlignment="Left" Margin="21,127,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBrojRezervacije" HorizontalAlignment="Left" Margin="119,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="67,222,0,0" VerticalAlignment="Top" Width="76" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="179,222,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.493,0.553" Click="btnOtkazi_Click"/>
+
+    </Grid>
+</Window>

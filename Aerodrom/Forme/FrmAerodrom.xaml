@@ -1,0 +1,18 @@
+﻿<Window x:Class="Aerodrom.Forme.FrmAerodrom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aerodrom.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/Izmeni Aerodrom" Height="350" Width="300">
+    <Grid>
+        <Label Content="Naziv:" HorizontalAlignment="Left" Margin="35,91,0,0" VerticalAlignment="Top"/>
+        <Label Content="Drzava:" HorizontalAlignment="Left" Margin="28,121,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNazivAerodroma" HorizontalAlignment="Center" Margin="0,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDrzavaAerodroma" HorizontalAlignment="Center" Margin="0,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="56,226,0,0" VerticalAlignment="Top" Width="76" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="167,226,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.493,0.553" Click="btnOtkazi_Click"/>
+
+    </Grid>
+</Window>
